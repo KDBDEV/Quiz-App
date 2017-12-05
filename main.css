@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+  background-color: #6799FF;
+  padding: 0 60px;
+  color: white;
+}
+
+.heading h1 {
+  margin:0;
+  padding: 15px 0;
+  line-height: 50px;
+}
+
+.heading p {
+  margin: 0 0 30px 0;
+  padding-bottom: 15px;
+}
+
+button {
+  background-color: black;
+  color:white;
+  padding: 12px;
+  border-radius:  10px;
+  font-weight: bold;
+}
+
+.score, .question, .status {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input {
+  margin-bottom: 7px;
+}
+
+.hidden {
+  display: none;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+.score, .question, .status {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.feedback {
+  max-width: 600px;
+  padding: 30px 40px;
+  margin: auto;
+}
+
+.positionform {
+  display: block;
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  margin-left: auto;
+  padding-left: 10px;
+  margin-right: auto;
+  text-align: left;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: none;
+}
